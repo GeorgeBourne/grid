@@ -12,7 +12,7 @@ public class TextUtils {
 	}
 
 	public static boolean isNumeric(char c) {
-		return c >= '0' && c < '9';
+		return c >= '0' && c <= '9';
 	}
 
 	public static boolean isEnLetter(char c) {
